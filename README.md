@@ -1,2 +1,2 @@
-# university_sss_mvp
+# university-sss-mvp
 University Student Services System — Async MVP Backend
