@@ -1,0 +1,21 @@
+{
+  "name": "university-sss-backend",
+  "version": "1.0.0",
+  "description": "University Student Services System — Async MVP Backend",
+  "scripts": {
+    "api": "node src/api/server.js",
+    "worker": "node src/worker/worker.js",
+    "db:migrate": "prisma migrate dev --name init",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0"
+  }
+}
